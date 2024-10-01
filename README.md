@@ -1,7 +1,5 @@
 # LogicAnalyzer
 
-test 
-
 ## Downloads
 You can find all the compiled projects in the [Releases section](https://github.com/gusmanb/logicanalyzer/releases).
 
