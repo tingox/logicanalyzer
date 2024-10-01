@@ -7533,7 +7533,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2cda6f34-1a7b-44ff-a44a-77d6760b11a1")
 		(property "Reference" "U1"
@@ -7754,7 +7754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 250.19 161.29 0)
 			(effects
 				(font
@@ -8212,7 +8212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 181.61 161.29 0)
 			(effects
 				(font
@@ -8285,7 +8285,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 227.33 161.29 0)
 			(effects
 				(font
@@ -9273,7 +9273,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8effd443-b0b6-40d4-943d-96cc25aee3c6")
 		(property "Reference" "J3"
@@ -9507,7 +9507,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b910c7f-2658-4050-ab20-b1c595dbd5ca")
 		(property "Reference" "J1"
 			(at 48.26 69.85 0)
@@ -9845,7 +9845,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
 			(at 204.47 161.29 0)
 			(effects
 				(font
@@ -11079,7 +11079,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ff241e45-ad71-468a-af34-530f0c7608e6")
 		(property "Reference" "J2"
