@@ -520,7 +520,7 @@
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 2.157 2.65 360)
+			(at 2.157 2.65 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "888059b3-2471-43ee-a2b4-3fd09f693b37")
@@ -32036,6 +32036,22 @@
 		(uuid "3ed8d31b-af03-4766-a822-53960050b701")
 	)
 	(segment
+		(start 89.408 80.518)
+		(end 89.525 80.635)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "45dc8e9b-798c-4f5e-b582-b0cefbb74fbe")
+	)
+	(segment
+		(start 92.165 80.635)
+		(end 92.4 80.4)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "55928500-970e-4b1e-8027-9292d66f6831")
+	)
+	(segment
 		(start 85.344 82.3085)
 		(end 85.4225 82.23)
 		(width 0.2)
@@ -32074,6 +32090,14 @@
 		(layer "B.Cu")
 		(net 25)
 		(uuid "62a698b8-d854-41d9-aa1b-9fdf97db86ad")
+	)
+	(segment
+		(start 89.525 80.635)
+		(end 92.165 80.635)
+		(width 0.25)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "6fa4282a-ffa8-4cb6-ac9d-0a7e7a042860")
 	)
 	(segment
 		(start 89.408 89.9285)
