@@ -287,7 +287,7 @@
 		)
 		(property ki_fp_filters "D*MiniMELF*")
 		(path "/3cad4871-f357-423c-bb38-142f118d87a8")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -513,6 +513,132 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "22858701-a7cb-4bc2-b237-f8429d3f5577")
+		(at 78.115 117.2)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H3"
+			(at -2.215 -3.3 0)
+			(layer "F.SilkS")
+			(uuid "9fa97f37-0e7e-48c8-9e4c-53546c5613fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "b38a2baf-92ed-4651-b731-65cdc9faead2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89052f7e-45df-442a-bd43-2c7a08224221")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10a65453-84fa-4cd3-bbee-171c0c082a51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7899764-74b6-4c0b-aea5-455080c695b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/5491c5c3-9c0a-4d49-acb6-f370dcdb50a7")
+		(sheetname "Root")
+		(sheetfile "LogicAnalyzer.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "b54dfea6-3481-4278-a7b6-72ea3d5c7b41")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "6b1fd1cf-8a90-4660-94af-f2f5fdd43675")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8b09d8d3-d956-4920-b6c8-79cba4d4a118")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "ddf710fe-bb4b-489e-8696-9b597e97af8c")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "eee70b8a-2718-489c-87d1-fd66a6d1472c")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "bb60ca37-0c77-4c35-a4ec-b1f36c1a80af")
+		)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2bed6ca1-bcbb-4623-afa9-a76487076467")
@@ -580,7 +706,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ff241e45-ad71-468a-af34-530f0c7608e6")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1238,7 +1364,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/864e02f0-d749-4109-bede-accfa3ce8ad2")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1501,7 +1627,7 @@
 			)
 		)
 		(path "/2cda6f34-1a7b-44ff-a44a-77d6760b11a1")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3683,7 +3809,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ec84ae42-4cec-4037-b766-b853d9880876")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3950,7 +4076,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/09779b40-eaf2-4d12-abcf-851392bf2916")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4163,7 +4289,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6546f28c-df3b-4133-b957-955efa357701")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4361,6 +4487,132 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "7441640a-256b-452b-b465-08cb42dce341")
+		(at 128.115 117.1)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H4"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "7e88a474-717e-4cea-b6c7-91b93e85ad4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "5ed85cf1-d911-4aff-8f1d-3f441a5a5481")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d077aa3a-b828-4ea1-8767-4f9f6a493962")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48bf8ed8-33b6-46cc-86c9-b3e63a6b3015")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e34ee19-f0a6-4bc7-96e5-e7f02ca2a4d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/30a74ee1-8a7b-4275-867a-accc29ed0eac")
+		(sheetname "Root")
+		(sheetfile "LogicAnalyzer.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "31f00dff-fb90-4a5d-ba12-a842fac4d940")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "3a93a46f-b144-413f-8b69-ae388f69c131")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "9a2d3474-c4f5-4c65-8abf-8ce743856402")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "aa0cc4cb-61fb-4a27-937f-dfbf001278e7")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "1d983084-ef16-43cc-9ff9-2b5804e3a7a1")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "af6a13f7-dba4-4f2f-90ae-90f28c07f414")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "75d1a5fe-bb13-4a00-8ee1-85cfb9e55d35")
@@ -4431,7 +4683,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8f3b572c-ff89-48e9-8bdd-ad44d6c35df1")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4644,7 +4896,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/23ff2209-7218-4cbc-afd7-e68d002f77b2")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4911,7 +5163,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/83327fb3-8a18-4ef8-adc5-b1c45175efdb")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5055,125 +5307,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "786859eb-3872-47d1-b0a8-5c8bf5b59caa")
-		(at 128.115 117.1)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "MH"
-			(at 0 -3.8 0)
-			(layer "F.SilkS")
-			(uuid "a0020699-2c5d-4213-bc30-a78e2dfb3258")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -0.1 5.4 0)
-			(layer "F.Fab")
-			(uuid "de165d40-4d2c-483e-997f-fbf528ffa0c3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ba4450b1-485d-4bb2-b5d7-373260b2d5a6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d7ceef8-3fe7-40e3-89a5-f5f523614f22")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8674bdfd-b2c7-41f5-93b9-8abc98ee5a7b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.8 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "d8c3783f-f3c2-4b9f-b91b-57e950f1da9d")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.05 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "a917cc92-558d-4bcb-a220-d5ef99ca2567")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e557f3ac-b00d-41af-ae8b-19f5705deb25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.6 3.6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "d5a5a7f5-3c80-45cd-a86a-2699afb1d2f6")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "b4372b95-a279-45cc-87d7-62b3129c8c53")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "1e17f6de-84b5-47ae-a626-24dc38f0554e")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "7cf711bd-b066-48c9-95cb-bccf888c3e4f")
@@ -5243,7 +5376,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/7476dbcc-ad6f-4ecc-a6f4-e6f9a3ccf003")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5387,125 +5520,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "827242ad-f3b6-4bd8-9031-43e233b30ec0")
-		(at 78.915 69.5)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "MH"
-			(at -3 -3 0)
-			(layer "F.SilkS")
-			(uuid "89123ce0-8319-4b86-84c7-29c77c3d1f75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -1.8 -8.1 0)
-			(layer "F.Fab")
-			(uuid "a5f7f267-f6af-4007-82f0-bc1c48299a1d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dee80d98-c639-4f22-9940-91042df0d612")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2f5e43a8-be94-4243-b14f-d6edd347ccbc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fb1a896-10ac-403e-a4de-d05df63e8b67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.8 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "daf24e88-b039-4b1f-9fa5-4e21ea86f974")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.05 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "78282128-dde4-4902-bb1a-f3490742fc95")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "733cd378-bb1f-4bdd-8312-30f71c3dc60a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.6 3.6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "adb166c4-fe71-4fd4-b24b-4f2d7d38aeb2")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "6b6743d6-91eb-4b1a-bd55-66685e035b6d")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "169fbfaa-c992-4efb-9462-2b5044b30289")
-		)
-	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "863603eb-576c-4add-ae02-854d77c54b43")
@@ -5575,7 +5589,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/dcaaa084-c747-4785-8650-fd01623b6a56")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5773,125 +5787,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "882c5488-cdba-4034-bb4f-a4c89338d789")
-		(at 128.115 70.4)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "MH"
-			(at 0.2 4.5 0)
-			(layer "F.SilkS")
-			(uuid "11c96817-07c2-41ca-9d0d-0d6e6652389c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -0.5 -6.6 0)
-			(layer "F.Fab")
-			(uuid "cbd2ab72-de22-47b0-b9b8-b0c8359dd383")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8cb26115-aec3-4272-9ef5-5504af0e2ed0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52f1fa6e-875e-4225-9e90-553308e07165")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "09a751b5-93b7-40d4-9f7f-b82d900b107e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.8 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "a817d156-816f-4930-9c07-b8f1a48dc112")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.05 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "49f2e83b-815e-4e16-8e79-3be6823e2cf9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ab362ac7-6caf-4a9b-882a-2ed008790108")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.6 3.6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "1b4a2527-8a26-4809-9d07-0062e4a0cb87")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "b638ca64-7638-4f75-91cd-3331525d64ec")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "fbc358f5-011e-4cf3-b4cb-777ad3c84c61")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "898a1090-eb78-4c68-911d-23dbb3d439a1")
@@ -5962,7 +5857,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/413c75e7-4680-424e-b460-1bd2e047af31")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6175,7 +6070,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/551b3db9-51d6-430d-b624-d0784513f8da")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6443,7 +6338,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/d90ea4e7-4d32-41f1-a77c-09da8462d298")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6657,7 +6552,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/343cad52-f58f-4835-9ea9-8537be2154f3")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6870,7 +6765,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/7182306a-816c-4bcf-9b22-d2207da99184")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7134,7 +7029,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8effd443-b0b6-40d4-943d-96cc25aee3c6")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -7822,7 +7717,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/10a50653-b7c2-4708-82e9-1b3926505e8c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8020,6 +7915,132 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "af6d152d-3c44-4794-b704-44493b42a906")
+		(at 78.915 69.5)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H1"
+			(at -3.115 -2.7 0)
+			(layer "F.SilkS")
+			(uuid "d850a1ba-d94a-4bfd-8c74-4561598994cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "e7b65270-aa5e-46d5-b549-fdb496844d94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df452adc-ccb4-4395-9a0a-da367f6b1597")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43814443-348c-49e4-9e55-b6b3e3b51239")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3881932-c0ca-4977-a591-350546c4deb5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/52c8deda-00e9-423f-aea8-bb368bdcae1f")
+		(sheetname "Root")
+		(sheetfile "LogicAnalyzer.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "54fa2c8b-12cc-4304-8be8-e831ee318642")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "011618bd-63fc-4c4c-9f09-81e4a4945892")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cbb269a8-064e-4156-b07c-137428bf2f04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "612fc727-cfc9-4170-afa0-c78f45896218")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "66514b1c-8fb2-406e-86ec-e01e506861d9")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "173406a9-8940-4679-befa-81f4ea29f837")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b5b062a7-f704-4a3a-9bf8-fc3504880670")
@@ -8089,7 +8110,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/94c804ac-cfdf-489c-8f75-9d75abded440")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8233,125 +8254,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-		(layer "F.Cu")
-		(uuid "bbedc14f-ab4e-462a-bfb4-eb13d082b3df")
-		(at 78.115 117.2)
-		(descr "Mounting Hole 3.2mm, M3, DIN965")
-		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "MH"
-			(at 3.15 2.85 0)
-			(layer "F.SilkS")
-			(uuid "491aebce-6c94-467f-8cb1-729e234fe57a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -0.5 6.4 0)
-			(layer "F.Fab")
-			(uuid "272ec492-94ac-4014-a94b-388af61b5fae")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8c148ac1-e9c8-4095-ba3c-5ef481626940")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02549a5f-d9bb-4ec2-b734-112d007412ad")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab2d43ff-4279-45b0-86d1-e0325ac8099b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.8 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "740bb0e2-7f6d-481e-9c7c-ab141aad74f8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.05 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "6b502a95-c02d-429b-984b-738053cff064")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "bbf98dc7-5489-471f-ac7e-8e97a84023ca")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0)
-			(size 3.6 3.6)
-			(drill 3.2)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "bbeff794-ca6d-4e4a-ac80-c69c780af677")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "F.Cu" "F.Mask")
-			(uuid "d284eb03-498d-48d2-93d3-1441ee30a2a5")
-		)
-		(pad "1" connect circle
-			(at 0 0)
-			(size 5.6 5.6)
-			(layers "B.Cu" "B.Mask")
-			(uuid "9c7c7495-39f6-4965-86fe-66578ab5e3e2")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c0a2fe72-5e38-4b73-93ef-62b27577e2dc")
@@ -8418,7 +8320,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/af0af41e-659e-4e99-9b35-33f9dcf2ed42")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8631,7 +8533,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/21456c2d-1134-423d-aad8-4234fd04197b")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8898,7 +8800,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/a2cf9fb1-47af-42a9-a2bd-e2b4c352e28d")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9165,7 +9067,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c9fab121-44ef-4cf7-8199-3bcc37793206")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9432,7 +9334,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5eb0f323-3d7a-44a5-ac09-123bfa30de52")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9645,7 +9547,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2300c8cb-72ef-4aa4-b828-44d4beb36445")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9789,6 +9691,132 @@
 			)
 		)
 	)
+	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+		(layer "F.Cu")
+		(uuid "ecb1c4bc-45dc-49e5-8e74-fb418e6a7b7b")
+		(at 128.115 70.4)
+		(descr "Mounting Hole 3.2mm, M3, DIN965")
+		(tags "mounting hole 3.2mm m3 din965")
+		(property "Reference" "H2"
+			(at 0 -3.8 0)
+			(layer "F.SilkS")
+			(uuid "3b644a83-ed80-40fa-aea1-145032181d11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 3.8 0)
+			(layer "F.Fab")
+			(uuid "b4484b34-bc17-4bf2-8190-b12a5ccdef0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee0f4240-f788-4e84-95a0-9151999b1fbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11467812-d3ff-4e56-b048-9fc041797f23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a23a615b-aa78-4e50-9568-b00182a50422")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/ac4de2ed-d2c2-4a9a-9271-f0be31203c11")
+		(sheetname "Root")
+		(sheetfile "LogicAnalyzer.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.8 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "004ff88d-a159-4d34-805d-139a25110d9f")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 3.05 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0dabb140-05ec-47a6-86ff-e2e2a4918344")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f2e84260-a748-485e-847f-460f8dd3c5f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3.6 3.6)
+			(drill 3.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "5f8127b4-4426-4a1a-a367-b3f555d85914")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "F.Cu" "F.Mask")
+			(uuid "8aec91d2-989f-4d92-9e89-a4a42d6116a3")
+		)
+		(pad "1" connect circle
+			(at 0 0)
+			(size 5.6 5.6)
+			(layers "B.Cu" "B.Mask")
+			(uuid "47f697d1-c4b8-4110-8d2d-9852bd3a8325")
+		)
+	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ee6a591b-268e-41fa-8e61-86767f866141")
@@ -9858,7 +9886,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3666351f-0939-42ef-86f7-545f9efbe90e")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10068,7 +10096,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/9b910c7f-2658-4050-ab20-b1c595dbd5ca")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -12043,7 +12071,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/b031141d-1717-4b7a-b1a0-574bd83a2737")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12256,7 +12284,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/f7345a56-ec03-481d-a9ae-91cadc0f266a")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12528,7 +12556,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/6ce4d089-d380-43f1-b34e-0425ec4b047c")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12801,7 +12829,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ae5821ed-5bb7-4ef2-9fd6-098b2adffd09")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13074,7 +13102,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/1519851c-fa45-4ed8-b6d2-847be8b8acd5")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13347,7 +13375,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ea00f852-8183-4798-9628-5288c840cd44")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13620,7 +13648,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/6b960cb0-19c0-480d-8541-1b4021d20515")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13839,7 +13867,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/1e2cac3e-8e23-4d6d-838f-8ce8bfe8291f")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14112,7 +14140,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/01293528-910c-4903-a619-34a4dba31369")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14331,7 +14359,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/bbc6c19d-113f-4943-907a-eb888c7afae0")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14550,7 +14578,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/28cb207e-0947-4ec2-9396-8b4238be563e")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14769,7 +14797,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/cd4bd2a9-3d68-403d-8737-56c59e1aa528")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14988,7 +15016,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/af7ff37d-6383-4a72-bb33-db914383e8cc")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15261,7 +15289,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/8d743ce2-e3f3-4363-bcb3-6e1e2aab7e68")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15480,7 +15508,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/10ab667c-9fce-4a24-8e1b-d18783bbeabf")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15699,7 +15727,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/cbe70057-6b7c-4083-ac25-8a0656ce0a28")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15972,7 +16000,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/162fc910-9e3a-494c-8a0c-a5c9f1fd0795")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16245,7 +16273,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/844d8e25-02bb-4ca1-8f60-4fe3e0d68a52")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16464,7 +16492,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/13e667db-d04e-4d95-b438-60fea69f852a")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16683,7 +16711,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/aa36820e-72e4-4f89-a463-d4d0d67530a3")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16902,7 +16930,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/4cf90610-b15f-4d63-9ea1-7aaba6482033")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17175,7 +17203,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ee9b24f8-3513-465c-8f3c-77bd09f941a0")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17448,7 +17476,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/1564747f-4b0a-4fbe-978d-417fb0bc5559")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17721,7 +17749,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/664bec76-094c-422e-804f-d781cf34beec")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17940,7 +17968,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/d93cc161-8bca-4259-83b7-aed3cbacaf7e")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18213,7 +18241,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/2660fc22-d4ed-4a6e-a87c-13130e9105c9")
-		(sheetname "Racine")
+		(sheetname "Root")
 		(sheetfile "LogicAnalyzer.kicad_sch")
 		(attr smd)
 		(fp_line
