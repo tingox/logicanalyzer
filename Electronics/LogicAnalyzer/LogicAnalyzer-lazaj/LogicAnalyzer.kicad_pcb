@@ -272,7 +272,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100V 0.15A standard switching diode, MiniMELF"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -291,6 +291,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c929db87-c1ec-4011-baae-ce7a1467fdff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b84f73e-295d-4946-8e88-97f7a03a027a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23c5dee6-1d5f-432b-8c50-c631306d493b")
 			(effects
 				(font
 					(size 1 1)
